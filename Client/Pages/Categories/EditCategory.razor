@@ -1,0 +1,17 @@
+@page "/categories/edit/{Id:int}"
+@using PracticaSemanaIV.Client.Pages.Components
+
+<FormCategory Category ="Category"  OnValidSubmit="Edit"></FormCategory>
+@code {
+    [Parameter] public int Id{get;set;}
+    private Category Category;
+    protected override void OnInitialized(){
+        Category = new Category(){
+            Id= Id,
+            Name= "Ciencia Ficcion"
+        };
+    }
+    private void Edit(){
+        Console.WriteLine($"Actualizando la Categoria Id {Category.Id} nombre {Category.Name}");
+    }
+}

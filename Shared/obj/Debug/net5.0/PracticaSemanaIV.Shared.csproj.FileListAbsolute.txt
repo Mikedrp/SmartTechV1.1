@@ -1,0 +1,12 @@
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\bin\Debug\net5.0\PracticaSemanaIV.Shared.deps.json
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\bin\Debug\net5.0\PracticaSemanaIV.Shared.dll
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\bin\Debug\net5.0\ref\PracticaSemanaIV.Shared.dll
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\bin\Debug\net5.0\PracticaSemanaIV.Shared.pdb
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\obj\Debug\net5.0\PracticaSemanaIV.Shared.csproj.AssemblyReference.cache
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\obj\Debug\net5.0\PracticaSemanaIV.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\obj\Debug\net5.0\PracticaSemanaIV.Shared.AssemblyInfoInputs.cache
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\obj\Debug\net5.0\PracticaSemanaIV.Shared.AssemblyInfo.cs
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\obj\Debug\net5.0\PracticaSemanaIV.Shared.csproj.CoreCompileInputs.cache
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\obj\Debug\net5.0\PracticaSemanaIV.Shared.dll
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\obj\Debug\net5.0\ref\PracticaSemanaIV.Shared.dll
+C:\practicas\semana4_g63\PracticaSemanaIV\Shared\obj\Debug\net5.0\PracticaSemanaIV.Shared.pdb

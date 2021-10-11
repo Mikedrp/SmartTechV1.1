@@ -1,0 +1,23 @@
+@page "/actors/edit/{Id:int}"
+@using PracticaSemanaIV.Client.Pages.Components
+
+<FormActor Actor ="Actor" OnValidSubmit="Edit"></FormActor>
+
+@code{
+        [Parameter] public int Id {get;set;}
+        Actor Actor = new Actor();        
+        protected override void OnInitialized(){
+             Actor = new Actor(){
+                 Id = Id,
+                 Name="Actor Prueba",
+                 KnowCredits = 18,
+                 BirthDate = DateTime.Today 
+             };
+        }
+
+        void Edit(){
+            Console.WriteLine("Modificando...");
+            
+        }
+
+}

@@ -1,0 +1,49 @@
+﻿@page "/"
+<div class="jumbotron">
+ @if (Movies == null)
+     {
+     <label><small class="text-muted">No se encontraron registros</small></label>    
+} else{
+    @foreach ( var item_movie in Movies)
+    {
+        <div class="list-group align-items-start mb-3">
+            @*Fila que contiene la informacion de una pelicula*@
+            <div class="row">
+                <div class="col md-3">
+                    <img src="@item_movie.Poster" alt="" height="400px" width="300px">
+                     </div>
+                    <div class="col md-9">
+                        <h6 class="text-left"><small class="text-muted">@item_movie.Name</small></h6>
+                        <blockquote class="blockquote text-left"><small>@item_movie.Sipnosis</small></blockquote>
+                </div>
+                
+            </div>
+
+        </div>
+    }    
+}
+
+ 
+</div>
+@*Seccion de CSS*@
+@code{
+    public List<Movie> Movies{get{return GetMovies();}}
+    @*Funcion que retorna una lista de 10 peliculas *@
+    private List<Movie> GetMovies(){
+        return new List<Movie>(){
+            new Movie(){Name=" El Conjuro ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/conjuro.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Deathsroke ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/deathstroke.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Kimetsunoyaiba ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/kimetsunoyaiba.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Monster hunter ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/monsterhunter.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Paw patrol ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/pawpatrol.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Ralph el demoledor ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/ralpheldemoledor.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Raya y el ultimo dragon ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/rayayelultimodragon.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Shang-chi ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/shang-chi.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Spacejam ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/spacejam.jpg", Premier=new DateTime(2021,10,01)},
+            new Movie(){Name=" Venom ", Sipnosis="Trama de la movie ...", Poster="/Images/Movies/venom.jpg", Premier=new DateTime(2021,10,01)},
+            };
+        }
+
+}
+
+
